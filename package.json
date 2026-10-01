@@ -1,0 +1,28 @@
+{
+  "name": "backend-render",
+  "version": "1.0.0",
+  "main": "dist/server.js",
+
+  "scripts": {
+      "dev": "tsx watch src/server.ts",
+      "build": "tsc",
+      "start": "node dist/server.js"
+  },
+
+  "dependencies": {
+      "cors": "...",
+      "dotenv": "...",
+      "express": "...",
+      "mysql2": "...",
+      "reflect-metadata": "...",
+      "typeorm": "..."
+  },
+
+  "devDependencies": {
+      "@types/cors": "...",
+      "@types/express": "...",
+      "@types/node": "...",
+      "tsx": "...",
+      "typescript": "..."
+  }
+}
